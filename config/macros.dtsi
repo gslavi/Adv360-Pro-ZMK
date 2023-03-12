@@ -1,3 +1,15 @@
+macro_cp_down: macro_cp_down{
+compatible = "zmk,behavior-macro";
+label = "macro_cp_down";
+#binding-cells = <0>;
+bindings = <&mt LCTRL C>, <&kp LEFT_ARROW>, <&mt LEFT_CONTROL DOWN_ARROW>, <&kp RIGHT>, <&kt LCTRL>, <&kt LEFT_SHIFT>, <&kp UP_ARROW>, <&kt LCTRL>, <&kt LEFT_SHIFT>, <&kp ENTER>;
+};
+macro_alt+hea: macro_alt+hea{
+compatible = "zmk,behavior-macro";
+label = "macro_alt+hea";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp H>, <&kp E>, <&kp A>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
