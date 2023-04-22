@@ -1,3 +1,33 @@
+macro_alt+2: macro_alt+2{
+compatible = "zmk,behavior-macro";
+label = "macro_alt+2";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp N2>;
+};
+macro_alt+1: macro_alt+1{
+compatible = "zmk,behavior-macro";
+label = "macro_alt+1";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp N1>;
+};
+macro_alt+h0: macro_alt+h0{
+compatible = "zmk,behavior-macro";
+label = "macro_alt+h0";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp H>, <&kp N0>;
+};
+macro_alt+h9: macro_alt+h9{
+compatible = "zmk,behavior-macro";
+label = "macro_alt+h9";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp H>, <&kp N9>;
+};
+macro_alt_shift_f4: macro_alt_shift_f4{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_shift_f4";
+#binding-cells = <0>;
+bindings = <&kt LEFT_SHIFT>, <&kt LEFT_ALT>, <&kp F4>, <&kt LEFT_SHIFT>, <&kt LEFT_ALT>;
+};
 macro_wwindow_left: macro_wwindow_left{
 compatible = "zmk,behavior-macro";
 label = "macro_wwindow_left";
