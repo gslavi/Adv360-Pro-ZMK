@@ -1,15 +1,3 @@
-macro_alt+h0: macro_alt+h0{
-compatible = "zmk,behavior-macro";
-label = "macro_alt+h0";
-#binding-cells = <0>;
-bindings = <&kp LEFT_ALT>, <&kp H>, <&kp N0>;
-};
-macro_alt+h9: macro_alt+h9{
-compatible = "zmk,behavior-macro";
-label = "macro_alt+h9";
-#binding-cells = <0>;
-bindings = <&kp LEFT_ALT>, <&kp H>, <&kp N9>;
-};
 macro_alt_shift_f4: macro_alt_shift_f4{
 compatible = "zmk,behavior-macro";
 label = "macro_alt_shift_f4";
