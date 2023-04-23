@@ -1,3 +1,9 @@
+macro_mac_menu_bar: macro_mac_menu_bar{
+compatible = "zmk,behavior-macro";
+label = "macro_mac_menu_bar";
+#binding-cells = <0>;
+bindings = <&kt LCTRL>, <&kt LSHIFT>, <&kp F2>, <&kt LCTRL>, <&kt LSHIFT>;
+};
 macro_ctrl_right: macro_ctrl_right{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_right";
