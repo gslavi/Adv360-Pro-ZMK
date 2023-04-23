@@ -1,3 +1,15 @@
+macro_ctrl_right: macro_ctrl_right{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_right";
+#binding-cells = <0>;
+bindings = <&kt LCTRL>, <&kp RIGHT>, <&kt LCTRL>;
+};
+macro_ctrl_left: macro_ctrl_left{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_left";
+#binding-cells = <0>;
+bindings = <&kt LCTRL>, <&kp LEFT>, <&kt LCTRL>;
+};
 macro_alt_2: macro_alt_2{
 compatible = "zmk,behavior-macro";
 label = "macro_alt_2";
