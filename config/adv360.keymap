@@ -99,11 +99,11 @@
 
         layer_Mac_Move_Windows {
             bindings = <
-         &trans  &trans      &bt BT_SEL 1  &trans       &bt BT_SEL 2  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-         &trans  &trans            &trans  &trans             &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-         &trans  &trans  &macro_ctrl_left  &trans  &macro_ctrl_right  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &kp LEFT_SHIFT  &trans            &trans  &trans             &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-         &trans  &trans            &trans  &trans             &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+         &trans  &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+         &trans        &trans            &trans        &trans             &trans        &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+         &trans        &trans  &macro_ctrl_left        &trans  &macro_ctrl_right        &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &kp LEFT_SHIFT        &trans            &trans        &trans             &trans        &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+         &trans        &trans            &trans        &trans             &trans                          &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
