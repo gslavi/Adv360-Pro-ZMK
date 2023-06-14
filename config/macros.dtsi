@@ -1,3 +1,9 @@
+macro_alt_hoi: macro_alt_hoi{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_hoi";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp H>, <&kp O>, <&kp I>;
+};
 macro_alt_a_j: macro_alt_a_j{
 compatible = "zmk,behavior-macro";
 label = "macro_alt_a_j";
