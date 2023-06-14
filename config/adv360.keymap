@@ -90,11 +90,11 @@
 
         layer_Move_Windows {
             bindings = <
- &trans  &bt BT_SEL 0         &bt BT_SEL 1        &bt BT_SEL 2          &bt BT_SEL 3  &bt BT_SEL 4                          &trans                                                  &trans  &trans  &trans          &trans  &trans  &trans  &trans
- &trans        &trans               &tog 4   &macro_wwindow_up                &tog 1        &trans                          &trans                                                  &trans  &trans  &trans          &trans  &trans  &trans  &trans
- &trans        &trans  &macro_wwindow_left  &macro_window_down  &macro_wwindow_right        &trans            &rgb_ug RGB_MEFS_CMD  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans
- &trans        &trans        &macro_alt_wq      &macro_alt_a_h        &macro_alt_a_j        &trans                          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans
- &trans        &trans               &trans              &trans                &trans                                        &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &kt DOWN_ARROW  &trans  &trans  &trans
+ &trans  &bt BT_SEL 0         &bt BT_SEL 1        &bt BT_SEL 2          &bt BT_SEL 3    &bt BT_SEL 4                          &trans                                                  &trans  &trans  &trans          &trans  &trans  &trans  &trans
+ &trans        &trans               &tog 4   &macro_wwindow_up                &tog 1          &trans                          &trans                                                  &trans  &trans  &trans          &trans  &trans  &trans  &trans
+ &trans        &trans  &macro_wwindow_left  &macro_window_down  &macro_wwindow_right          &trans            &rgb_ug RGB_MEFS_CMD  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans
+ &trans        &trans        &macro_alt_wq       &macro_alt_wq        &macro_alt_a_h  &macro_alt_a_j                          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans
+ &trans        &trans               &trans              &trans                &trans                                          &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &kt DOWN_ARROW  &trans  &trans  &trans
             >;
         };
 
