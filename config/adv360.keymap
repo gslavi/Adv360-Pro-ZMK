@@ -22,6 +22,7 @@
 / {
   behaviors {
     #include "macros.dtsi"
+    #include "version.dtsi"
 
     hm: homerow_mods {
         compatible = "zmk,behavior-hold-tap";
@@ -60,11 +61,11 @@
 
         layer_keypad {
             bindings = <
-  &kp EQUAL      &macro_alt_1          &kp F4  &kp SCROLLLOCK           &kp F7  &kp LEFT_ALT            &macro_alt_shift_f4                                                                   &mo 4         &kp KP_NUMLOCK     &kp EQUAL  &kp KP_SLASH  &kp KP_MULTIPLY  &kp KP_SUBTRACT        &kp MINUS
- &kp ESCAPE      &macro_alt_2     &kp PAGE_UP    &kp UP_ARROW    &kp PAGE_DOWN         &kp T                  &macro_alt_ac                                                                  &tog 1   &kp LEFT_PARENTHESIS     &kp KP_N7     &kp KP_N8        &kp KP_N9      &kp KP_PLUS         &kp BSLH
-     &kp F2             &kp A  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW         &kp G                 &macro_alt_hoi    &mo 5   &kp HOME                      &kp LGUI  &kp RCTRL     &tog 2  &kp RIGHT_PARENTHESIS     &kp KP_N4     &kp KP_N5        &kp KP_N6     &kp KP_ENTER          &kp SQT
-  &kp LSHFT             &kp Z           &kp X           &kp C            &kp V         &kp B                                            &kp END                    &kp DELETE                                    &kp COMMA        &kp N1        &kp N2           &kp N3     &kp KP_ENTER  &kp RIGHT_SHIFT
-  &kp LCTRL  &kp LEFT_BRACKET        &kp CAPS   &macro_alt_h0    &macro_alt_h9                                     &kp BSPC  &kp TAB  &kp LCTRL                  &kp LEFT_ALT  &kp ENTER  &kp SPACE                         &kp NUMBER_0  &kp NUMBER_0       &kp KP_DOT         &kp RBKT            &mo 3
+  &kp EQUAL  &macro_alt_1            &kp F4  &kp SCROLLLOCK           &kp F7  &kp LEFT_ALT            &macro_alt_shift_f4                                                                   &mo 4         &kp KP_NUMLOCK     &kp EQUAL  &kp KP_SLASH  &kp KP_MULTIPLY  &kp KP_SUBTRACT        &kp MINUS
+ &kp ESCAPE  &macro_alt_2       &kp PAGE_UP    &kp UP_ARROW    &kp PAGE_DOWN         &kp T                  &macro_alt_ac                                                                  &tog 1   &kp LEFT_PARENTHESIS     &kp KP_N7     &kp KP_N8        &kp KP_N9      &kp KP_PLUS         &kp BSLH
+     &kp F2         &kp A    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW         &kp G                 &macro_alt_hoi    &mo 5   &kp HOME                      &kp LGUI  &kp RCTRL     &tog 2  &kp RIGHT_PARENTHESIS     &kp KP_N4     &kp KP_N5        &kp KP_N6     &kp KP_ENTER          &kp SQT
+  &kp LSHFT         &kp Z             &kp X           &kp C            &kp V         &kp B                                            &kp END                    &kp DELETE                                    &kp COMMA        &kp N1        &kp N2           &kp N3     &kp KP_ENTER  &kp RIGHT_SHIFT
+  &kp LCTRL        &trans  &kp LEFT_BRACKET   &macro_alt_h0    &macro_alt_h9                                     &kp BSPC  &kp TAB  &kp LCTRL                  &kp LEFT_ALT  &kp ENTER  &kp SPACE                         &kp NUMBER_0  &kp NUMBER_0       &kp KP_DOT         &kp RBKT            &mo 3
             >;
         };
 
